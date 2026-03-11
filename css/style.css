@@ -441,11 +441,11 @@ img {
 
 @media (max-width: 768px) {
     .mega-number {
-        font-size: 6rem;
+        font-size: clamp(3.5rem, 15vw, 6rem);
     }
 
     .mega-number .unit {
-        font-size: 2rem;
+        font-size: clamp(1.5rem, 6vw, 2rem);
     }
 }
 
