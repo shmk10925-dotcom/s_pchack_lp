@@ -662,8 +662,10 @@ img {
 
     /* Layout & Cards */
     .hero-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 40px;
+        width: 100%;
     }
 
     .hero-content-wrapper {
